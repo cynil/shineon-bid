@@ -29,9 +29,9 @@ def diff(s1, s2):
     return (count, shortlen, remains)
 
 
-df = DataFrame(pd.read_excel('o.xlsx'))
+df = DataFrame(pd.read_excel('o.xlsx',  ))
 title = df['信息标题']
-SEARCH_RANGE = 10
+SEARCH_RANGE = 20
 TOO_SHORT = 4
 
 for i, item in enumerate(title):
