@@ -1,0 +1,5 @@
+data
+*.xls
+*.xlsx
+build
+dist
